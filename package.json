@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.45.1",
-    "@rushstack/eslint-patch": "^1.10.3",
+    "@rushstack/eslint-patch": "^1.10.5",
     "@stylistic/eslint-plugin-js": "^2.3.0",
     "@stylistic/eslint-plugin-ts": "^2.3.0",
     "@tsconfig/node20": "^20.1.4",
