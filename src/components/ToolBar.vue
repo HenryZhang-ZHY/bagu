@@ -30,6 +30,13 @@ const items = ref([
     action: () => {
       router.push('/')
     },
+  },
+  {
+    icon: 'pi pi-envelope',
+    label: '联系作者',
+    action: () => {
+      contactAuthor()
+    },
   }
 ])
 
@@ -39,6 +46,15 @@ function openTemplateLibrary() {
   templateLibraryNotificationBadgeValue.value = undefined
   notificationBadgeManager.clear(NotificationBadgeKeys.TemplateLibrary)
   router.push({ name: 'TemplateLibrary' })
+}
+
+function contactAuthor() {
+  const email = 'ended-crock-lilly@duck.com'
+  const subject = '关于 Bagu 应用的咨询'
+  const body = '您好，我对您的 Bagu 应用有一些问题想要咨询...'
+
+  const mailtoUrl = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  window.open(mailtoUrl, '_blank')
 }
 
 onMounted(async () => {
