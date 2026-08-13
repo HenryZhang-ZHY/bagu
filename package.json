@@ -17,7 +17,7 @@
   "dependencies": {
     "@primevue/themes": "4.1.0",
     "localforage": "^1.10.0",
-    "monaco-editor": "^0.50.0",
+    "monaco-editor": "^0.55.1",
     "nanoid": "^5.0.7",
     "pinia": "^2.1.7",
     "primeicons": "^7.0.0",
