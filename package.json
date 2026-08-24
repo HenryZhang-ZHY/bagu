@@ -56,6 +56,6 @@
     "vite": "^5.3.3",
     "vite-plugin-vue-devtools": "^7.3.5",
     "vitest": "^2.1.2",
-    "vue-tsc": "^2.0.26"
+    "vue-tsc": "^3.3.11"
   }
 }
